@@ -1,0 +1,31 @@
+.tabbar {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #dadada;
+  float: left;
+
+  > ul {
+    display: flex;
+    align-content: stretch;
+
+    li {
+      float: left;
+      display: inline-block;
+      flex: 1 1 auto;
+      text-align: center;
+    }
+  }
+
+  a {
+    background: #f8f8f8;
+    padding: 16px 16px 12px;
+    border-bottom: 4px solid transparent;
+    display: block;
+    transition: border .2s ease-in-out;
+
+    &:hover {
+      border-color: #b2b2b2;
+      transition: border .2s ease-in-out;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.media-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+
+  > li {
+    border-bottom: 1px solid #dadada;
+  }
+
+  .media-image {
+    height: 48px;
+    width: 48px;
+    background: #757575;
+    float: left;
+    margin-right: 8px;
+  }
+  .media-title {
+    margin: 0 0 4px;
+    font-size: 20px;
+  }
+
+  .media-description {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  a {
+    padding: 16px;
+    display: inline-block;
+    width: 100%;
+
+    &:hover {
+      background: #efefef;
+    }
+  }
+}
